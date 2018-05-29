@@ -1,31 +1,24 @@
 # Will-user-click-on-the-Ad
 
-Using Machine Learning To Predict whether User Will Click An Ad
+In this project we will be working with a fake advertising data set, indicating whether or not a particular internet user clicked on an Advertisement. We will try to create a model that will predict whether or not they will click on an ad based off the features of that user.
+This data set contains the following features:
 
-Data_Info:
+'Daily Time Spent on Site': consumer time on site in minutes
 
-RangeIndex: 1000 entries, 0 to 999
+'Age': cutomer age in years
 
-Data columns (total 10 columns):
+'Area Income': Avg. Income of geographical area of consumer
 
-Daily Time Spent on Site    1000 non-null float64
+'Daily Internet Usage': Avg. minutes a day consumer is on the internet
 
-Age                         1000 non-null int64
+'Ad Topic Line': Headline of the advertisement
 
-Area Income                 1000 non-null float64
+'City': City of consumer
 
-Daily Internet Usage        1000 non-null float64
+'Male': Whether or not consumer was male
 
-Ad Topic Line               1000 non-null object
+'Country': Country of consumer
 
-City                        1000 non-null object
+'Timestamp': Time at which consumer clicked on Ad or closed window
 
-Male                        1000 non-null int64
-
-Country                     1000 non-null object
-
-Timestamp                   1000 non-null object
-
-Clicked on Ad               1000 non-null int64
-
-dtypes: float64(3), int64(3), object(4)
+'Clicked on Ad': 0 or 1 indicated clicking on Ad
